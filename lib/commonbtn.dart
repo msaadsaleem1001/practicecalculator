@@ -20,10 +20,10 @@ class CalculatorButtons extends StatelessWidget {
         child: InkWell(
           onTap: onPress,
           child: Container(
-            height: 80,
+            height: 60,
             decoration: BoxDecoration(
                 color: commonColor,
-                shape: BoxShape.circle
+                shape: BoxShape.circle,
             ),
             child: Center(child: Text(title, style: TextStyle(color: txtColor, fontSize: 25,fontWeight: FontWeight.bold
             ),)),
